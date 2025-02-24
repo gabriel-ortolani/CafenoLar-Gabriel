@@ -1,0 +1,27 @@
+/* fonte */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* estilos gerais (todo o projeto) */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; /*define o modelo de caixa para incluir padding e borda no tamanho total do elemento */
+}
+
+body{
+    background: #1f1517;
+    color: #ffff;
+}
+
+html{
+    font-family: inter, sans-serif;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none; /* Remove a decoração de texto, como sublinhado, do elemento*/
+}
+
+ul{
+    list-style-type: none; /* Remode os marcadores de lista (bolinhas) de um elemento de lista */
+}
