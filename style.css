@@ -157,6 +157,7 @@ footer.content {
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
     font-weight: 500;
+    
 }
 
 /* Sessão principal(main) */
@@ -319,7 +320,6 @@ nav{
     color: #fff2e780;
 }
 
-/* era pra ter algo */
 /* responsividade (Telas meores que 768px) */
 
 @media screen and (max-width: 768px){
