@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore dezenas de variações de bebidas favorita entre o devs ao redor do mundo">
+
+    <!-- inserindo favcon -->
+    <link rel="shortcut icon" href="assets/favicon.jpg" type="image/x-icon">
+
+    <!-- link para css -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>CafénoLar</title>
+</head>
+<body>
+    <!-- cabeçalho (header) -->
+    <header>
+        <nav>
+            <span class="title">Cafénolar</span>
+
+            <ul class="menu" id="MenuItems">
+                <li><a>HOME</a></li>
+                <li>
+                    <a href="#receitas" style="text-decoration: none; color: #fff2e780;" onmouseover="this.style.color='#fff';" onmouseout="this.styple.color='#fff2e780';">
+                        RECEITAS
+                    </a>
+                </li>
+                <li><a>NOVIDADE</a></li>
+                <li><a>MELHOR AVALIADAS</a></li>
+            </ul>
+
+
+            <!-- menu hamburguer (telas menores) -->
+            <img src="assets/menu.png" alt="Menu" class="menu-icon" onclick="menutoggle()">
+        </nav>
+    </header>
+
+    <script src="efeitos.js"></script>
+</body>
+</html>
